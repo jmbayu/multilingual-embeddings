@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "multilingual-embeddings"
+version = "0.1.0"
+description = ""
+authors = ["JM <jmbayu@yahoo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+llama-index = "0.10.1"
+html2text = ">=2020.1.16,<2021.0.0"
+llama-index-readers-web = "0.1.18"
+transformers = "4.37.2"
+openai = "^1.35.1"
+einops = "^0.8.0"
+seaborn = "^0.13.2"
+tqdm = "^4.66.4"
+numpy = "^2.0.0"
+ipykernel = "^6.29.4"
+sentence-transformers = "^3.0.1"
+bitsandbytes = "^0.43.1"
+accelerate = "^0.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
